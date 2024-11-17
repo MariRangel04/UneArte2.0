@@ -1,0 +1,86 @@
+.cadastro-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100vh;
+    background-image: url("./../../assets/imagens/galeria/MA4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-right: 20px; 
+}
+
+.cadastro-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px; 
+}
+
+/* logo */
+.logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+/* Estilo do título */
+.cadastro-circle h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+/* Estilos dos inputs */
+.cadastro-circle form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cadastro-circle input[type="text"],
+.cadastro-circle input[type="email"],
+.cadastro-circle input[type="password"] {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+/* Estilo do botão */
+.cadastro-circle button {
+    padding: 10px 30px;  
+    font-size: 1em;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cadastro-circle button:hover {
+    background-color: #581f60;
+}
+
+/* Link para login */
+.cadastro-circle p {
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+.cadastro-circle p a {
+    color: #581f60;
+    text-decoration: none;
+}
+

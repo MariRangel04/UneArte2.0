@@ -29,7 +29,7 @@ const Header = () => {
 
     return (
         <header className="header-container">
-            <Link>
+            <Link to='/' className='logo-link'>
             <img src={logo} alt='Logo UneArte' className='header-logo'/>
             </Link>
             <div className="header-right">
